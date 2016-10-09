@@ -12,10 +12,21 @@
     android:weightSum="1"
     tools:context="id.sch.smktelkom_mlg.learn.intent1.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/editTextNama"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextUmur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Umur"
+        android:inputType="numberSigned" />
 
     <Button
         android:id="@+id/buttonHitung"
